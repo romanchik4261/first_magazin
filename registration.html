@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/95322fcafc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__wrap">
+            <div class="header__left">
+                <a class="header__item" href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <a class="header__item" href="#">
+                    <img src="img/Loupe.svg" alt="Loupe">
+                </a>
+            </div>
+
+            <div class="header__right">
+
+                <div class="header__burger">
+                    <input type="checkbox" id="burger">
+                    <label class="header__menu" for="burger"><img src="img/menu.svg" alt="menu"></label>
+
+                    <nav class="header__nav nav">
+                        <div class="nav__wrap">
+                            <label class="nav__close" for="burger"><img src="img/close.svg" alt="close"></label>
+
+                        <h2>MENU</h2>
+                        <h3>MEN</h3>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Denim</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                        </ul>
+
+                        <h3>WOMAN</h3>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </ul>
+
+                        <h3>KIDS</h3>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Bags</a></li>
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+
+
+
+
+
+                <a class="header__item" href="registration.html">
+                    <img src="img/office.svg" alt="office">
+                </a>
+                <a class="header__item" href="cart.html">
+                    <img src="img/ShoppingCart.svg" alt="shoppingCart">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="breadcrumb">
+        <div class="container breadcrumb__link">
+            <div>
+                <a href="#" class="link1">REGISTRATION</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+
+        <section class="container">
+            <section class="registration">
+                <div class="regForm">
+                    <form action="#">
+
+                        <fieldset class="regForm__name">
+                            <legend>Your Name</legend>
+                            <input type="text" placeholder="First Name" class="regForm__text">
+                            <input type="text" placeholder="Last Name" class="regForm__text">
+                        </fieldset>
+
+                        <div class="regForm__pol">
+                            <label class="regForm__pol"><input type="radio" name="pol">Male</label>
+                            <label class="regForm__pol"><input type="radio" name="pol">Female</label>
+                        </div>
+
+                        <fieldset class="regForm__login">
+                            <legend>Login details</legend>
+                            <input type="email" placeholder="Email" class="regForm__text">
+                            <input type="password" placeholder="Password" class="regForm__text">
+                        </fieldset>
+
+                        <p class="regForm__p">Please use 8 or more characters, with at least 1 number and a mixture of
+                            uppercase and lowercase letters</p>
+
+                        <button type="submit">JOIN NOW
+                            <svg width="17" height="10" viewBox="0 0 17 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z" />
+                            </svg>
+
+                            <!-- <img src="img/arrowSend.svg" alt="arrowSend"> -->
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="regText">
+                    <h2>LOYALTY HAS ITS PERKS</h2>
+                    <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with
+                        these as soon as you join:</p>
+                    <ul>
+                        <li> <img src="img/point.svg" alt="point"> 15% off welcome offer</li>
+                        <li> <img src="img/point.svg" alt="point"> Free shipping, returns and exchanges on all orders
+                        </li>
+                        <li> <img src="img/point.svg" alt="point"> $10 off a purchase on your birthday</li>
+                        <li> <img src="img/point.svg" alt="point"> Early access to products</li>
+                        <li> <img src="img/point.svg" alt="point"> Exclusive offers & rewards</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer__subscribe">
+            <div class="container">
+                <div class="subscribe__info">
+                    <div class="subscribe__text">
+                        <div class="subscribe__img"><img src="img/face.png" alt="face"></div>
+                        <p class="subscribe__text2">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+                            purus condimentum“</p>
+                    </div>
+                    <div class="subscribe__form">
+                        <div class="subscribe__header"><span class="subscribe__header2">SUBSCRIBE <br></span>
+                            FOR OUR NEWLETTER AND PROMOTION</div>
+
+                        <form class="subscribe__button">
+                            <input type="email" class="subscribe__input" placeholder="Enter Your Email">
+                            <button class="subscribe__button2" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer__copyright">
+            <div class="container footer__copyright__link">
+                <div class="copyright"> &copy; 2021 Lena Patina </div>
+                <div class="socnetwork"></div>
+
+                <div class="footer__link">
+                    <button class="footer__link__soc">
+                        <a class="footer__link__soc" href="https://ru-ru.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </button>
+
+                    <button class="footer__link__soc">
+                        <a class="footer__link__soc" href="https://www.instagram.com/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </button>
+
+                    <button class="footer__link__soc">
+                        <a class="footer__link__soc" href="https://www.pinterest.ru/">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </button>
+
+                    <button class="footer__link__soc">
+                        <a class="footer__link__soc" href="https://twitter.com/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>

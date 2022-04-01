@@ -1,0 +1,69 @@
+$mainColor: #F16D7F;
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin around {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin btn {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding: 17px 40px;
+}
+
+@keyframes test {
+    0% {
+        margin-top: 0;
+        color: black;
+    }
+
+    50% {
+        margin-top: 100px;
+        color: $mainColor;
+        background: #cea8da;
+    }
+
+    100% {
+        margin-top: 0;
+        color: black;
+    }
+}
+
+@keyframes button {
+    0% {
+        transform: rotate(0deg);
+        background: white;
+        color: white;
+    }
+
+    30% {
+        color: $mainColor;
+        transform: scale(2.0);
+        background: #e2eeff;
+        border-radius: 50px;
+    }
+
+    60% {
+        background: #7cb4e2;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1.0);
+        transform: rotate(0deg);
+        background: white;
+        color: white;
+    }
+}

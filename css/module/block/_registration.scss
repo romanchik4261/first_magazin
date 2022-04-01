@@ -1,0 +1,131 @@
+.registration {
+    @include between;
+
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+
+.regForm {
+    padding-right: 128px;
+
+    & button {
+        padding: 16px 30px;
+        background: white;
+        font-size: 14px;
+        line-height: 17px;
+        color: black;
+        transition: 2s;
+    }
+
+    & button:hover {
+        background: $mainColor;
+        color: #FFFFFF;
+        transform: rotate(360deg);
+        // transform: skew(0deg, -20deg) scale(.5) translateX(50%);        
+    }
+
+    & button svg:hover {
+        fill: #FFFFFF;
+        transition: 2s;
+    }
+}
+
+.regForm legend {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.regForm__text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+
+    padding: 14px 17px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+.regForm__name {
+    @include column;
+    border: none;
+
+    & legend {
+    transition: ease-in 5s;
+    }
+
+    & legend:hover {
+        transform:translateX(200px);
+    }
+}
+
+.regForm__pol {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 13px;
+    color: #000000;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    padding-right: 20px;
+}
+
+.regForm__login {
+    @include column;
+    border: none;
+
+    & legend:hover {
+        transform: skewX(40deg);
+        transition: 3s;
+    }
+}
+
+.regForm__p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+
+    margin-top: 15px;
+    margin-bottom: 39px;
+
+    transition: 3s cubic-bezier(.07,.96,.9,0);
+}
+
+.regForm__p:hover {
+    transform: rotate(30deg) scale(1.5) translateX(100px);   
+}
+
+.regText {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+    & h2:hover {
+        transform: scale(1.5);
+        transition: 3s;
+        color: $mainColor;
+    }
+
+    & p {
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    & ul {
+        list-style-type: none;
+        
+        & li {
+            padding-bottom: 16px;
+        }
+    }
+
+    & ul:hover {
+        animation: test 6s infinite;
+    }
+}
+
+
+

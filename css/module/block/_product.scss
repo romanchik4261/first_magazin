@@ -1,0 +1,118 @@
+.slide {
+  background: #f7f7f7;
+
+  .slide__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .arrow__svg:hover {
+    fill: $mainColor;
+  }
+
+  .slide__arrow__left {
+    padding: 12px 17px;
+    border: none;
+    position: absolute;
+    left: 5px;
+    margin-top: 365px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+  }
+
+  .slide__arrow__right {
+    padding: 12px 17px;
+    border: none;
+    position: absolute;
+    right: 5px;
+    margin-top: 365px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+  }
+}
+
+.description__block {
+  border: 1px solid #eaeaea;
+  margin-bottom: 129px;
+  margin-top: -50px;
+
+  .filter__menu__product {
+    display: flex;
+    justify-content: center;
+    color: #636363;
+
+    .size {
+      background: #ffffff;
+      box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+      padding: 9px 30px 9px 9px;
+    }
+  }
+}
+
+.description__women {
+  display: flex;
+  display: block;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  position: relative;
+
+  background: #ffffff;
+
+  .description__header {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $mainColor;
+    padding-top: 64px;
+    padding-bottom: 12px;
+  }
+
+  .description__header2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4d4d4d;
+    padding-top: 12px;
+    padding-bottom: 48px;
+  }
+
+  .description__text {
+    margin: 0 auto;
+    max-width: 555px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5e5e5e;
+    padding-bottom: 32px;
+  }
+
+  .description__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $mainColor;
+  }
+
+  .hr1 {
+    max-width: 63px;
+    height: 3px;
+    background-color: $mainColor;
+    border: none;
+    margin: 12px 540px;
+  }
+
+  .hr2 {
+    max-width: 642px;
+    color: #eaeaea;
+    margin: 65px 250px;
+  }
+}

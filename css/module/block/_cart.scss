@@ -1,0 +1,132 @@
+.cart__block {
+    @include between;
+}
+
+.cart__boxShop {
+    @include column;
+}
+
+.cart__shop {
+    @include around;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    padding-top: 96px;
+    padding-bottom: 40px;
+    margin-right: 128px;
+    max-width: 652px
+}
+
+.cart__btn {
+    @include between;
+    padding-top: 72px;
+    padding-bottom: 144px;
+    margin-right: 128px;
+}
+
+.cart__btn__text {
+    @include btn;
+    max-width: 360px;
+}
+
+
+.cart__form form{
+    @include column;
+    padding-top: 113px;
+    padding-bottom: 57px;
+}
+
+.cart__shop__text {
+    background-color: #FFFFFF;
+    @include between;
+}
+
+.cart__shop__text input {
+    width: 44px;
+    padding: 2px 16px;
+}
+
+.cart__shop__text h3 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    padding-left: 30px;
+    padding-top: 22px;
+
+}
+
+.cart__shop__text strong {
+    color: $mainColor;
+}
+
+.cart__shop__text ul {
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+.cart__shop__btn button {
+    padding: 28px 22px;
+    background: none;
+    border-style: none;
+}
+
+.cart__form__pole {
+    background: #FFFFFF;
+    padding: 13px 30px 16px 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    width: 360px;
+}
+
+.cart__price {
+    background-color: #F5F3F3;
+    padding: 40px 44px;
+    max-width: 360px;
+    
+
+    hr {
+        background: #E2E2E2;
+        margin-top: 21px;
+        margin-bottom: 17px;
+    }
+
+    &__btn {
+        display: flex;
+        align-self: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        background-color: $mainColor;
+        padding: 15px 60px;
+        border: none;
+    }
+}
+
+.cart__price__text1 {
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 12px;
+}
+
+.cart__price__text2 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.cart__price__text2 strong {
+    color: $mainColor;
+}

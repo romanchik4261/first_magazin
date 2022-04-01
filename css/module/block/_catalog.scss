@@ -1,0 +1,144 @@
+.filter {
+  .filter__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+
+    .filter__menu[open] {
+      background: #ffffff;
+      box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+      width: 360px;
+    }
+
+    .filter__menu[open] > .filter__menu__filter {
+      color: $mainColor;
+    }
+
+    .filter__menu[open] > .filter__menu__filter > .filter__svg {
+      fill: $mainColor;
+    }
+
+    .filter1[open] > .filter__menu1 {
+      color: $mainColor;
+    }
+
+    .filter1[open] > .filter__menu2 {
+      color: $mainColor;
+    }
+
+    .filter__menu:hover {
+      cursor: pointer;
+    }
+
+    .filter__menu {
+      margin-top: 51px;
+
+      .filter__menu__filter {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        padding-bottom: 24px;
+        padding-top: 13px;
+        padding-left: 16px;
+
+        .filter__svg {
+          fill: black;
+        }
+      }
+
+      .filter__content {
+        background: #ffffff;
+        width: 360px;
+        z-index: 2;
+        position: absolute;
+      }
+
+      .filter1 {
+        margin-bottom: 24px;
+        margin-top: 30px;
+        border-bottom: 1px solid #ebebeb;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .filter__menu1:hover {
+        color: $mainColor;
+      }
+
+      .filter__menu1 {
+        display: block;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6f6e6e;
+        border-left: 5px solid $mainColor;
+        margin-top: 54px;
+      }
+
+      .list {
+        list-style-type: none;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6f6e6e;
+        padding: 11px 34px 11px 34px;
+      }
+
+      .filter__menu2:hover {
+        color: $mainColor;
+      }
+
+      .filter__menu2 {
+        font-size: 14px;
+        line-height: 17px;
+        color: #6f6e6e;
+        border-left: 5px solid $mainColor;
+      }
+    }
+  }
+
+  .filter__menu3 {
+    padding-top: 51px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+
+    .filter__menu4 {
+      font-size: 14px;
+      line-height: 17px;
+      color: #636363;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .size__header {
+        padding-right: 25px;
+        padding-left: 17px;
+      }
+
+      .size__header--last {
+        padding-right: 0;
+      }
+
+      .size {
+        background: #ffffff;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        padding: 9px 30px 9px 9px;
+      }
+
+      .size__line {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 6px;
+      }
+
+      .size__line--last {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .filter__menu4:hover {
+    cursor: pointer;
+  }
+}

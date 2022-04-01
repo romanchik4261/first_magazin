@@ -1,0 +1,115 @@
+@media (max-width: 1024px) {
+    
+    .header__left {
+        margin-left: 32px;
+    }
+
+    .header__right {
+        margin-right: 32px;
+    }
+
+    .breadcrumb {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        
+        .top__wrap {
+
+            background-position: -105px 0; //что-то тут не так
+                
+            .top__text {
+                margin-right: 32px;
+                
+                 .title {
+                    font-size: 44px;
+                    line-height: 53px;
+                }
+            
+                .title2 {
+                    line-height: 29px;
+                }
+            }
+            
+        }
+    }
+
+    .offer__card {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .filter__menu4 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .products {
+        .card {
+            justify-content: center;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+        .button__allproduct {
+            .button__product {
+                margin-top: 33px;
+                margin-bottom: 65px;
+            }
+        }
+    }
+    
+    
+
+    .product__card:nth-child(odd) {
+        margin-right: 16px;
+    }
+
+    .feature {
+        .block {
+            @include column;
+            width: 360px;
+
+            padding-top: 48px;
+            padding-bottom: 64px;
+
+            .block1 {
+                padding-bottom: 47px;
+                padding-right: 0;
+            }
+        
+            .block2 {
+                padding-bottom: 47px;
+                padding-right: 0;
+            }
+        }    
+    }
+
+    .footer__subscribe {
+        .subscribe__info {
+            @include column;
+            justify-content: center;
+            min-width: 360px;
+
+            .subscribe__text {
+                margin-top: 64px;
+                margin-bottom: 0;
+            }
+
+            .subscribe__form {
+                margin-top: 48px;
+                margin-bottom: 140px;
+            }
+        }    
+    }
+
+    .copyright {
+        margin-left: 32px;
+    }
+
+    .footer__link__soc:nth-child(4) {
+        margin-right: 32px;
+    }
+
+}
